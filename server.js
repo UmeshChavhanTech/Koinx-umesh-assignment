@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const axios = require('axios');
 const schedule = require('node-schedule');
-const Crypto = require('./model/Crypto');
+const Crypto = require('Crypto');
 
 // App and Database Setup
 const app = express();
